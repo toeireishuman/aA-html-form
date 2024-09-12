@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-size=1.0">
     <title>Basic HTML Survey Form</title>
     <link rel="stylesheet" href="./layout.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -17,21 +23,21 @@
             <div>
                 <label for="firstName">
                     First name:
-                    <input type="text" id="firstName" name="first_name">
+                    <input type="text" id="firstName" name="first_name" required>
                 </label>
             </div>
 
             <div>
                 <label for="lastName">
                     Last name:
-                    <input type="text" id="lastName" name="last_name">
+                    <input type="text" id="lastName" name="last_name" required>
                 </label>
             </div>
 
             <div>
                 <label for="email">
                     Email address:
-                    <input type="email" id="email" name="email_address">
+                    <input type="email" id="email" name="email_address" required>
                 </label>
             </div>
 
@@ -49,7 +55,7 @@
             <div>
                 <p>Choose your favorite programming language:</p>
                 <label for="html">
-                    <input type="radio" id="html" name="html-css-js">
+                    <input type="radio" id="html" name="html-css-js" checked>
                     HTML
                 </label>
                 <br>
@@ -67,7 +73,7 @@
             <div>
                 <label for="date">
                     Current date:
-                    <input type="date" id="currentDate" name="current_date">
+                    <input type="date" id="currentDate" name="current_date" required>
                 </label>
             </div>
 
