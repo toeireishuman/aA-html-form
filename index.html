@@ -1,97 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-size=1.0">
-        <title>Basic HTML Survey Form</title>
-    </head>
-    <body>
-        <h1>Basic Survey Form</h1>
-        <form action="" method="post">
-            <fieldset>
-                <legend>Add user</legend>
 
-                <div>
-                    <label for="firstName">
-                        First name:
-                        <input type="text" id="firstName" name="first_name">
-                    </label>
-                </div>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-size=1.0">
+    <title>Basic HTML Survey Form</title>
+</head>
 
-                <div>
-                    <label for="lastName">
-                        Last name:
-                        <input type="text" id="lastName" name="last_name">
-                    </label>
-                </div>
+<body>
+    <h1>Basic Survey Form</h1>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Add user</legend>
 
-                <div>
-                    <label for="email">
-                        Email address:
-                        <input type="email" id="email" name="email_address">
-                    </label>
-                </div>
+            <div>
+                <label for="firstName">
+                    First name:
+                    <input type="text" id="firstName" name="first_name">
+                </label>
+            </div>
 
-                <div>
-                    <label for="status">
-                        Status:
-                        <select id="status" name="status">
-                            <option value="student">Student</option>
-                            <option value="teacher">Teacher</option>
-                            <option value="guest">Guest</option>
-                        </select>
-                    </label>
-                </div>
+            <div>
+                <label for="lastName">
+                    Last name:
+                    <input type="text" id="lastName" name="last_name">
+                </label>
+            </div>
 
-                <div>
-                    <p>Choose your favorite programming language:</p>
-                    <label for="html">
-                        <input type="radio" id="html" name="html-css-js">
-                        HTML
-                    </label>
-                    <br>
-                    <label for="css">
-                        <input type="radio" id="css" name="html-css-js">
-                        CSS
-                    </label>
-                    <br>
-                    <label for="js">
-                        <input type="radio" id="js" name="html-css-js">
-                        JavaScript
-                    </label>
-                </div>
+            <div>
+                <label for="email">
+                    Email address:
+                    <input type="email" id="email" name="email_address">
+                </label>
+            </div>
 
-                <div>
-                    <label for="date">
-                        Current date:
-                        <input type="date" id="currentDate" name="current_date">
-                    </label>
-                </div>
+            <div>
+                <label for="status">
+                    Status:
+                    <select id="status" name="status">
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="guest">Guest</option>
+                    </select>
+                </label>
+            </div>
 
-                <div>
-                    <label for="comments">
-                        Comments:
-                        <textarea rows="5" cols="24"></textarea>
-                    </label>
-                </div>
+            <div>
+                <p>Choose your favorite programming language:</p>
+                <label for="html">
+                    <input type="radio" id="html" name="html-css-js">
+                    HTML
+                </label>
+                <br>
+                <label for="css">
+                    <input type="radio" id="css" name="html-css-js">
+                    CSS
+                </label>
+                <br>
+                <label for="js">
+                    <input type="radio" id="js" name="html-css-js">
+                    JavaScript
+                </label>
+            </div>
 
-                <div>
-                    <label for="newsletter">
-                        <input type="checkbox" id="newsletter" name="newsletter">
-                        Sign up for newsletter
-                    </label>
-                </div>
+            <div>
+                <label for="date">
+                    Current date:
+                    <input type="date" id="currentDate" name="current_date">
+                </label>
+            </div>
 
-                <div>
-                    <label for="tos">
-                        <input type="checkbox" id="tos" name="tos">
-                        Agree to terms and conditions
-                    </label>
-                </div>
+            <div>
+                <label for="comments">
+                    Comments:
+                    <textarea rows="5" cols="24"></textarea>
+                </label>
+            </div>
 
-                <button type="submit">Submit</button>
+            <div>
+                <label for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    Sign up for newsletter
+                </label>
+            </div>
 
-            </fieldset>
-        </form>
-    </body>
+            <div>
+                <label for="tos">
+                    <input type="checkbox" id="tos" name="tos">
+                    Agree to terms and conditions
+                </label>
+            </div>
+
+            <button type="submit">Submit</button>
+
+        </fieldset>
+    </form>
+</body>
+
 </html>
