@@ -20,67 +20,71 @@
         <fieldset>
             <legend>Add user</legend>
 
-            <div>
+            <div class="text-field">
                 <label for="firstName">
                     First name:
                     <input type="text" id="firstName" name="first_name" required>
                 </label>
             </div>
 
-            <div>
+            <div class="text-field">
                 <label for="lastName">
                     Last name:
                     <input type="text" id="lastName" name="last_name" required>
                 </label>
             </div>
 
-            <div>
+            <div class="text-field">
                 <label for="email">
                     Email address:
                     <input type="email" id="email" name="email_address" required>
                 </label>
             </div>
 
-            <div>
-                <label for="status">
-                    Status:
-                    <select id="status" name="status">
-                        <option value="student">Student</option>
-                        <option value="teacher">Teacher</option>
-                        <option value="guest">Guest</option>
-                    </select>
-                </label>
+            <div class="status-date">
+                <div class="text-field">
+                    <label for="status">
+                        Status:
+                        <select id="status" name="status">
+                            <option value="student">Student</option>
+                            <option value="teacher">Teacher</option>
+                            <option value="guest">Guest</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div class="text-field">
+                    <label for="date">
+                        Current date:
+                        <input type="date" id="currentDate" name="current_date" required>
+                    </label>
+                </div>
             </div>
 
             <div>
                 <p>Choose your favorite programming language:</p>
-                <label for="html">
-                    <input type="radio" id="html" name="html-css-js" checked>
-                    HTML
-                </label>
-                <br>
-                <label for="css">
-                    <input type="radio" id="css" name="html-css-js">
-                    CSS
-                </label>
-                <br>
-                <label for="js">
-                    <input type="radio" id="js" name="html-css-js">
-                    JavaScript
-                </label>
+                <div class="prog-lang">
+                    <label for="html">
+                        <input type="radio" id="html" name="html-css-js" checked>
+                        HTML
+                    </label>
+                    <br>
+                    <label for="css">
+                        <input type="radio" id="css" name="html-css-js">
+                        CSS
+                    </label>
+                    <br>
+                    <label for="js">
+                        <input type="radio" id="js" name="html-css-js">
+                        JavaScript
+                    </label>
+                </div>
             </div>
 
-            <div>
-                <label for="date">
-                    Current date:
-                    <input type="date" id="currentDate" name="current_date" required>
-                </label>
-            </div>
-
-            <div>
+            <div class="text-field">
                 <label for="comments">
                     Comments:
-                    <textarea rows="5" cols="24"></textarea>
+                    <textarea id="comments"></textarea>
                 </label>
             </div>
 

@@ -1,0 +1,98 @@
+* {
+    font-family: "Montserrat";
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    padding: 64px;
+    padding-bottom: 128px;
+    /* display: flex;
+    flex-flow: column wrap; */
+}
+
+h1 {
+    text-align: center;
+    font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 64px 64px;
+}
+
+fieldset {
+    width: 440px;
+    min-width: none;
+    margin: auto;
+    padding: 32px 128px 64px;
+    font-weight: 500;
+    border-radius: 16px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 16px;
+}
+
+legend {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 0.5em 1em;
+}
+
+.text-field {
+    padding: 0;
+    width: 100%;
+}
+
+.text-field > label {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.text-field > label > input,
+.text-field > label > select {
+    width: 100%;
+    height: 24px;
+}
+
+.status-date {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    padding: 0;
+    width: 100%;
+}
+
+.status-date .text-field {
+    width: 70%;
+}
+
+.text-field > label > input[type="date"],
+.text-field > label > select {
+    text-align: center;
+    width: 100%;
+    height: 24px;
+}
+
+.prog-lang {
+    display: flex;
+    justify-content: space-between;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    min-height: 45px;
+    height: 100px;
+    border-radius: 11px;
+}
+
+button {
+    border: none;
+    background-color: black;
+    border-radius: 11px;
+    color: white;
+    padding: 11px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 64px;
+}
